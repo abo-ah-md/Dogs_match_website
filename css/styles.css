@@ -1,0 +1,169 @@
+#title{
+    background-color: #ff4c68;
+}
+.navbar-brand{
+    margin-right: 400px;
+    font-size: 2rem;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+#dog-mobile{
+   transform: rotate(10deg);
+   margin-top: 25px;
+   width: 50%;
+   -webkit-transform: rotate(10deg);
+   -moz-transform: rotate(10deg);
+   -ms-transform: rotate(10deg);
+   -o-transform: rotate(10deg);
+}
+
+#btn-hero{
+   
+    margin-left:20px;
+    margin-top: 40px;
+}
+
+.feature_title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    
+}
+
+#features i{
+
+    color: #ef8172;
+    font-size: 3rem;
+}
+#features i:hover{
+    transition: 0.9s ease-in-out;
+    transform: scale(1.09);
+    color: #ff4c68;
+    -webkit-transition: 0.9s ease-in-out;
+    -moz-transition: 0.9s ease-in-out;
+    -ms-transition: 0.9s ease-in-out;
+    -o-transition: 0.9s ease-in-out;
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    -o-transform: scale(1.09);
+}
+#features p{
+
+   color: #8f8f8f;
+}
+
+/*testimonials*/
+h2{
+     font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    }
+#testimonials{
+
+   
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testemonial_img{
+    width: 10%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 20px;
+}
+
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+    
+}
+
+.press_img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7%  15%;
+}
+
+.plans_cards{
+
+    text-align: center;
+  
+    
+}
+
+.pricing_row{
+  
+
+}
+
+.palns_btn{
+    width: 100%;
+}
+
+#pricing{
+    text-align: center;
+}
+
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 50px;
+}
+
+#cta h3{
+
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 3rem;
+    width: fit-content;
+}
+
+
+#footer{
+    background-color: white;
+    text-align: center;
+}
+#footer i {
+    padding: 10px;
+}
+
+
+@media (max-width:1028px) {
+
+    #title{
+
+        text-align: center;
+    }
+    #dog-mobile{
+        position: static;
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+} 
+    
+}
